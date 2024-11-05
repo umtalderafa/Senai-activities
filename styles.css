@@ -1,0 +1,140 @@
+/* Cor de fundo preto */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+/* Modo claro e escuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode nav {
+    background-color: #121212;
+}
+
+.dark-mode nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header {
+    background-color: #46B4CC;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Menu em horizontal */
+nav {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Botão para trocar de tema */
+.toggle-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Linhas de imagens na horizontal */
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-container img {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #fff;
+}
+
+.galeria-container .descricao {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilização para as seções */
+#destaque {
+    background-color: #f7f7f7;
+    padding: 20px;
+    color: #000;
+}
+
+#novidades {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+}
+
+#novidades ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#novidades li {
+    margin-bottom: 10px;
+}
+
+/* Estilização para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+/* Estilos padrão (modo claro) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Estilos para o modo escuro */
+  .dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
+
+  /* Estilo do botão */
+  #toggle-button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
